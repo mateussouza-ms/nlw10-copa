@@ -8,7 +8,7 @@ import Logo from "../assets/logo.svg";
 
 export function NewPool() {
   return (
-    <VStack flex={1}>
+    <VStack flex={1} bg="gray.900">
       <Header title="Criar novo bolão" />
 
       <VStack mt={8} mx={5} alignItems="center">

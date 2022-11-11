@@ -6,7 +6,7 @@ import { Input } from "../components/Input";
 
 export function FindPool() {
   return (
-    <VStack flex={1}>
+    <VStack flex={1} bg="gray.900">
       <Header title="Buscar por código" showBackButton />
 
       <VStack mt={8} mx={5} alignItems="center">

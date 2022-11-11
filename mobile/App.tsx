@@ -4,11 +4,11 @@ import {
   Roboto_700Bold,
   useFonts,
 } from "@expo-google-fonts/roboto";
-import { Center, NativeBaseProvider, StatusBar } from "native-base";
+import { NativeBaseProvider, StatusBar } from "native-base";
 
 import { Loading } from "./src/components/Loading";
 import { AuthContextProvider } from "./src/contexts/AuthContext";
-import { Pools } from "./src/screens/Pools";
+import { Routes } from "./src/routes";
 import { THEME } from "./src/styles/theme";
 
 export default function App() {
@@ -21,14 +21,13 @@ export default function App() {
   return (
     <NativeBaseProvider theme={THEME}>
       <AuthContextProvider>
-        <Center flex={1} bgColor="gray.900">
-          {fontsLoaded ? <Pools /> : <Loading />}
-        </Center>
         <StatusBar
           barStyle="light-content"
           backgroundColor="transparent"
           translucent
         />
+
+        {fontsLoaded ? <Routes /> : <Loading />}
       </AuthContextProvider>
     </NativeBaseProvider>
   );
