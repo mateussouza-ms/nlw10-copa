@@ -69,6 +69,7 @@ export async function poolRoutes(fastify: FastifyInstance) {
               },
             },
           },
+          take: 4,
         },
         owner: {
           select: {

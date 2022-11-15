@@ -13,7 +13,6 @@ import { api } from "../services/api";
 export function Pools() {
   const { navigate } = useNavigation();
   const [pools, setPools] = useState<PoolCardPros[]>([]);
-  console.log("pools", pools);
   const [isLoading, setIsLoading] = useState(false);
 
   const toast = useToast();
@@ -68,7 +67,12 @@ export function Pools() {
         <FlatList
           data={pools}
           keyExtractor={(item) => item.id}
-          renderItem={({ item }) => <PoolCard data={item} />}
+          renderItem={({ item }) => (
+            <PoolCard
+              data={item}
+              onPress={() => navigate("pool-details", { id: item.id })}
+            />
+          )}
           px={5}
           showsVerticalScrollIndicator={false}
           _contentContainerStyle={{ pb: 20 }}
