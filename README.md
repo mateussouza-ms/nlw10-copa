@@ -8,20 +8,20 @@ Foi desenvolvida uma aplicação com três projetos, o Frontend Web com ReactJS 
 <br/> <br/> 
 ## 🛠 Principais tecnologias utilizadas
 ### Backend
-![NodeJS](https://img.shields.io/badge/NodeJS-14.18.1-green)
-![PrismaORM](https://img.shields.io/badge/PrismaORM-4.3.1-green)
-![express](https://img.shields.io/badge/express-4.18.1-green)
+![NodeJS](https://img.shields.io/badge/NodeJS-18.12.1-green)
+![PrismaORM](https://img.shields.io/badge/PrismaORM-4.5.0-green)
+![fastify](https://img.shields.io/badge/fastify-4.9.2-green)
 
 ### Frontend Web
 ![ReactJS](https://img.shields.io/badge/ReactJS-18.2.0-green)
-![axios](https://img.shields.io/badge/axios-0.27.2-green)
-![Radix](https://img.shields.io/badge/Radix-1.0.0-green)
-![TypeScript](https://img.shields.io/badge/TypeScript-4.6.4-green)
+![axios](https://img.shields.io/badge/axios-1.1.3-green)
+![tailwindcss](https://img.shields.io/badge/tailwindcss-3.2.1-green)
+![TypeScript](https://img.shields.io/badge/TypeScript-4.8.4-green)
 
 ### Frontend Mobile
-![ReactNative](https://img.shields.io/badge/React_Native-0.69.5-green)
-![expo](https://img.shields.io/badge/expo-45.0.9-green)
-![TypeScript](https://img.shields.io/badge/TypeScript-4.3.5-green)
+![ReactNative](https://img.shields.io/badge/React_Native-0.69.6-green)
+![expo](https://img.shields.io/badge/expo-45.0.16-green)
+![TypeScript](https://img.shields.io/badge/TypeScript-4.6.3-green)
 
 <br/> <br/> 
 ## :pager: Design da aplicação
