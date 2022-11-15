@@ -22,7 +22,7 @@ export function AppRoutes() {
         tabBarLabelPosition: "beside-icon",
         tabBarStyle: {
           position: "absolute",
-          height: 87,
+          height: 67,
           borderTopWidth: 0,
           backgroundColor: theme.colors.gray[800],
         },
