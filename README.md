@@ -5,7 +5,7 @@
 Este é um projeto desenvolvido na 10ª edição do Next Level Week, um evento de programação realizado pela Rocketseat do dia 31 de outubro a 07 de novembro de 2022.
 <br/> <br/>
 
-## :computer: Aplicação desenvolvida
+## :computer: Aplicaassdafção desenvolvida
 
 Foi desenvolvida uma aplicação com três projetos, o Frontend Web com ReactJS e NextJs, Frontend Mobile com React Native e Expo e o Backend com NoasdfsfddeJS. A aplicação foi desenvolvida utilizando as melhores práticas das tecnologias utilizadas em cada projeto.asfdsafdsaf
 <br/> A aplicação possibilita a criação de bolões para jogos da Copa do Mundo de Futebol. Por meio dela é possível que usuários possam autenticar-se com a conta do Google, criar e participar de bolões e dar palpites de placar para os jogos.
