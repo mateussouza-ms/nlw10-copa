@@ -3,7 +3,7 @@
 ## :information_source: Sobre o projeto
 
 Este é um projeto desenvolvido na 10ª edição do Next Level Week, um evento de programação realizado pela Rocketseat do dia 31 de outubro a 07 de novembro de 2022.
-<br/> <br/>
+<br/> <br/>dsaafd
 
 ## :computer: Aplicaassdafção desenvolvida
 
